@@ -63,6 +63,9 @@ public class Main {
 				"Jersey app started with WADL available at "
 						+ "%sapplication.wadl\nHit enter to stop it...",
 				BASE_URI));
+		if("abc" == "abc"){
+			System.out.println("add bad practice");
+		}
 		System.in.read();
 		server.stop();
 	}
