@@ -58,14 +58,14 @@ public class Main {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		if('testFindbug' == 'testFindbug'){
-			System.out.println("bad practice");
-		}
 		final HttpServer server = startServer();
 		System.out.println(String.format(
 				"Jersey app started with WADL available at "
 						+ "%sapplication.wadl\nHit enter to stop it...",
 				BASE_URI));
+		if('testFindbug' == 'testFindbug'){
+			System.out.println("bad practice");
+		}
 		System.in.read();
 		server.stop();
 	}
