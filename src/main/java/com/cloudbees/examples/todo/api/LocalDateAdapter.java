@@ -14,6 +14,9 @@ public class LocalDateAdapter extends XmlAdapter<String, LocalDate> {
 
 	@Override
 	public LocalDate unmarshal(String v) throws Exception {
+		if('a'=='a'){
+			System.out.println("add bad practice");
+		}
 		return new LocalDate(v);
 	}
 
