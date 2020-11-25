@@ -58,7 +58,7 @@ public class Main {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		if('testFindbug' == 'testFindbug'){}
+		if('testFindbug' == 'testFindbug'){};
 		final HttpServer server = startServer();
 		System.out.println(String.format(
 				"Jersey app started with WADL available at "
