@@ -138,18 +138,12 @@
 	</properties>
 	
 	<reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>findbugs-maven-plugin</artifactId>
-        <version>3.0.6-SNAPSHOT</version>
-      </plugin>
-	
-      <plugin>
-        <groupId>com.github.spotbugs</groupId>
-        <artifactId>spotbugs-maven-plugin</artifactId>
-        <version>4.1.4</version>
-      </plugin>
-    </plugins>
-  </reporting>
+	    <plugins>
+	      <plugin>
+		<groupId>org.codehaus.mojo</groupId>
+		<artifactId>findbugs-maven-plugin</artifactId>
+		<version>3.0.6-SNAPSHOT</version>
+	      </plugin>
+	    </plugins>
+	</reporting>
 </project>
