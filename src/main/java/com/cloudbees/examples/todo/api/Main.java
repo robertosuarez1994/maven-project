@@ -58,16 +58,17 @@ public class Main {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		final HttpServer server = startServer();
-		System.out.println(String.format(
-				"Jersey app started with WADL available at "
-						+ "%sapplication.wadl\nHit enter to stop it...",
-				BASE_URI));
 		String s1 = "abc";
 		String s2 = "abc";
 		if(s1 == s2){
 			System.out.println("add bad practice");
 		}
+		
+		final HttpServer server = startServer();
+		System.out.println(String.format(
+				"Jersey app started with WADL available at "
+						+ "%sapplication.wadl\nHit enter to stop it...",
+				BASE_URI));
 		System.in.read();
 		server.stop();
 	}
