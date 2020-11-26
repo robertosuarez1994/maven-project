@@ -61,7 +61,7 @@ public class Main {
 		String s1 = "abc";
 		String s2 = "abc";
 		if(s1 == s2){
-			System.out.println("add bad practice\n");
+			System.out.println(String.format("add bad practice\n"));
 		}
 		
 		final HttpServer server = startServer();
