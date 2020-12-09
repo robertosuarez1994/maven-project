@@ -8,13 +8,7 @@
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>todo-api</name>
-	
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-	</properties>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -141,6 +135,7 @@
 		<grizzly.version>2.3.11</grizzly.version>
 		<servlet-api-version>3.0.1</servlet-api-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
 	</properties>
 	
 	<reporting>
